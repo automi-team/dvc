@@ -1,4 +1,6 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = s3://automi-dvc/LISI
+    url = s3://automi-dvc/LISI/
+    region = eu-west-3
+    connect_timeout = 60
